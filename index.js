@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const { getCode } = require('country-list');
+const chalk = require('chalk');
 const axios = require('axios').default;
 const myArgs = process.argv.slice(2);
 
@@ -17,5 +18,5 @@ axios.get(`https://date.nager.at/api/v2/publicholidays/${year}/${getCode(myArgs[
         });
     })
     .catch(error => {
-        console.log(chalk.bold.red(error));
+        console.log(chalk.red.bold(error));
     });
