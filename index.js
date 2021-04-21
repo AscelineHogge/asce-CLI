@@ -2,7 +2,7 @@
 const { getCode } = require('country-list');
 const chalk = require('chalk');
 const axios = require('axios').default;
-const myArgs = process.argv.slice(2); //Cree une liste de (2) arguments
+const myArgs = process.argv.slice(2);
 
 let year;
 if (myArgs[1]) {
