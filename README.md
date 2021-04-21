@@ -7,21 +7,20 @@ In my BeCode formation, I was asked to use Node.js to create command lines in or
 
 #### Install this in the terminal :
 
-npm i asce-cli
+> npm i asce-cli
 
 #### Use this command line to retrieve the country :
 
-holidates country
+> holidates country
 
 ### Example.
 
 #### Order line for Belgium :
 
-holidates Belgium
+> holidates Belgium
 
 #### The result is :
 
-> 
 * New Year's Day - 2021-01-01
 * Easter Sunday - 2021-04-04
 * Easter Monday - 2021-04-05
